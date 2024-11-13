@@ -17,23 +17,32 @@
           "assetPath": "floor",
           "scale": [2, 1],
           "scroll": [0.9, 0.9]
+        },
+        {
+          "zIndex": 200,
+          "position": [-1800, -2000],
+          "animType": "sparrow",
+          "name": "stagecurtains",
+          "assetPath":"curtains",
+          "scale": [2, 2],
+          "scroll": [1.5, 1.5]
         }
     ],
     "cameraZoom": 0.8,
     "version": "1.0.1",
     "characters": {
       "bf": {
-        "zIndex": 102,
+        "zIndex": 22,
         "position": [200, 50],
         "cameraOffsets": [0, -150]
       },
       "dad": {
-        "zIndex": 101,
-        "position": [-300, 50],
+        "zIndex": 21,
+        "position": [-500, 50],
         "cameraOffsets": [200, 0]
       },
       "gf": {
-        "zIndex": 100,
+        "zIndex": 20,
         "cameraOffsets": [0, 0],
         "position": [0, 0]
       }
