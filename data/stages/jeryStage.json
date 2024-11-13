@@ -30,7 +30,7 @@
       "dad": {
         "zIndex": 101,
         "position": [-300, 50],
-        "cameraOffsets": [0, 0]
+        "cameraOffsets": [200, 0]
       },
       "gf": {
         "zIndex": 100,
