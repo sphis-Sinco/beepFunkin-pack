@@ -25,7 +25,7 @@
       "bf": {
         "zIndex": 102,
         "position": [200, 50],
-        "cameraOffsets": [0, 0]
+        "cameraOffsets": [0, -150]
       },
       "dad": {
         "zIndex": 101,
