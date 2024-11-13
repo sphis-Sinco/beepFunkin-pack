@@ -6,7 +6,7 @@
         "position": [0, 0],
         "scale": [1, 1],
         "animType": "sparrow",
-        "name": "stageBack",
+        "name": "back",
         "isPixel": false,
         "assetPath": "back",
         "scroll": [1, 1],
@@ -14,22 +14,22 @@
       }
     ],
     "cameraZoom": 0.9,
-    "version": "0.1.1",
+    "version": "1.0.0",
     "characters": {
       "bf": {
-        "zIndex": 300,
-        "position": [989.5, 885],
-        "cameraOffsets": [-100, -100]
+        "zIndex": 201,
+        "position": [500, 0],
+        "cameraOffsets": [0, 0]
       },
       "dad": {
         "zIndex": 200,
-        "position": [335, 885],
-        "cameraOffsets": [150, -100]
+        "position": [500, 0],
+        "cameraOffsets": [0, 0]
       },
       "gf": {
         "zIndex": 100,
         "cameraOffsets": [0, 0],
-        "position": [751.5, 787]
+        "position": [0, 0]
       }
     },
     "name": "Jery's Stage",
