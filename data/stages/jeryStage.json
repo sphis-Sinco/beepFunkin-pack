@@ -1,24 +1,34 @@
 {
     "props": [
-      {
-        "zIndex": 10,
-        "position": [-200, -200],
-        "animType": "sparrow",
-        "name": "stageback",
-        "assetPath": "back",
-        "scale": [1, 1]
-      }
+        {
+          "zIndex": 10,
+          "position": [-1400, -1200],
+          "animType": "sparrow",
+          "name": "stageback",
+          "assetPath": "back",
+          "scale": [2, 2],
+          "scroll": [1, 1]
+        },
+        {
+          "zIndex": 11,
+          "position": [-1600, -700],
+          "animType": "sparrow",
+          "name": "stagefloor",
+          "assetPath": "floor",
+          "scale": [2, 1],
+          "scroll": [0.9, 0.9]
+        }
     ],
     "cameraZoom": 0.6,
     "version": "1.0.1",
     "characters": {
       "bf": {
-        "zIndex": 201,
+        "zIndex": 102,
         "position": [200, 50],
         "cameraOffsets": [0, 0]
       },
       "dad": {
-        "zIndex": 200,
+        "zIndex": 101,
         "position": [-300, 50],
         "cameraOffsets": [0, 0]
       },
