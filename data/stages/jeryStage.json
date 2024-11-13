@@ -19,13 +19,22 @@
           "scroll": [0.9, 0.9]
         },
         {
-          "zIndex": 200,
+          "zIndex": 30,
           "position": [-1800, -2000],
           "animType": "sparrow",
           "name": "stagecurtains",
           "assetPath":"curtains",
           "scale": [2, 2],
           "scroll": [1.5, 1.5]
+        },
+        {
+          "zIndex": 31,
+          "position": [-2200, -2000],
+          "animType": "sparrow",
+          "name": "stagestairs",
+          "assetPath":"stairs",
+          "scale": [2, 2],
+          "scroll": [2, 1.5]
         }
     ],
     "cameraZoom": 0.8,
