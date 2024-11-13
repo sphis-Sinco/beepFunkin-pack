@@ -51,8 +51,8 @@
     "characters": {
       "bf": {
         "zIndex": 22,
-        "position": [200, 50],
-        "cameraOffsets": [0, -150]
+        "position": [700, 50],
+        "cameraOffsets": [-500, -150]
       },
       "dad": {
         "zIndex": 21,
@@ -61,8 +61,8 @@
       },
       "gf": {
         "zIndex": 20,
-        "cameraOffsets": [0, 0],
-        "position": [0, 0]
+        "position": [500, 0],
+        "cameraOffsets": [-500, 0]
       }
     },
     "name": "Jery's Stage"
