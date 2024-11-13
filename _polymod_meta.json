@@ -1,8 +1,17 @@
 {
-    "title": "Your-Name-mod",
-    "description": "Your mod description",
-    "author": "You name",
-    "api_version": "0.5.2",
-    "mod_version": "1.1.1",
-    "license": "CC BY 4.0,MIT"
+    "title": "BeepFunkin",
+    "description": "rap against retied musician Jery,\nyou must bring his musical talent back!",
+    "contributors": [
+        {
+            "name": "IdealistCat / Sinco",
+            "role": "Art, Animation, Composition, Programming"
+        },
+        {
+            "name": "IdealistCat / Sinco",
+            "role": "Art, Animation, Composition, Programming"
+        }
+    ],
+    "api_version": "0.5.3",
+    "mod_version": "1.0.0",
+    "license": "MIT"
 }
