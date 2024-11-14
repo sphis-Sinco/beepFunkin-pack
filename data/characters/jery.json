@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "name": "Jery",
+  "assetPath": "characters/Jery_spritesheet",
+  "flipX": false,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Jery Idle0",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Jery NOTE right",
+      "offsets": [100, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Jery NOTE down",
+      "offsets": [50, -45]
+    },
+    {
+      "name": "singUP",
+      "prefix": "Jery NOTE up",
+      "offsets": [90, 20]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Jery NOTE left",
+      "offsets": [30, -10]
+    }
+  ]
+}
