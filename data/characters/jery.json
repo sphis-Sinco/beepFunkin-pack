@@ -1,6 +1,6 @@
 {
 	"version": "1.0.0",
-	"renderType": "sparrow",
+	"renderType": "multisparrow",
 	"offsets": [
 		0,
 		0
@@ -18,75 +18,127 @@
 	"singTime": 8,
 	"assetPath": "characters/Jery_spritesheet",
 	"healthIcon": {
+		"isPixel": false,
 		"offsets": [
 			0,
 			0
 		],
+		"scale": 1,
 		"id": "jery",
-		"flipX": false,
-		"isPixel": false,
-		"scale": 1
+		"flipX": false
 	},
 	"animations": [
 		{
-			"flipY": false,
 			"offsets": [
 				0,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "Jery Idle0",
-			"flipX": false,
+			"name": "idle",
 			"looped": false,
-			"name": "idle"
+			"flipX": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				100,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "Jery NOTE right",
-			"flipX": false,
+			"name": "singRIGHT",
 			"looped": false,
-			"name": "singRIGHT"
+			"flipX": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				50,
 				-45
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "Jery NOTE down",
-			"flipX": false,
+			"name": "singDOWN",
 			"looped": false,
-			"name": "singDOWN"
+			"flipX": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				90,
 				20
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "Jery NOTE up",
-			"flipX": false,
+			"name": "singUP",
 			"looped": false,
-			"name": "singUP"
+			"flipX": false
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				30,
 				-10
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "Jery NOTE left",
-			"flipX": false,
+			"name": "singLEFT",
 			"looped": false,
-			"name": "singLEFT"
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				10
+			],
+			"flipY": false,
+			"assetPath": "characters/jery_nervous",
+			"frameRate": 24,
+			"prefix": "Jery Nervous Full0",
+			"name": "nervous",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				10
+			],
+			"flipY": false,
+			"assetPath": "characters/jery_nervous",
+			"frameRate": 24,
+			"prefix": "Jery Nervous Intro0",
+			"name": "nervous-intro",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				10
+			],
+			"flipY": false,
+			"assetPath": "characters/jery_nervous",
+			"frameRate": 24,
+			"prefix": "Jery Nervous End0",
+			"name": "nervous-end",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				10
+			],
+			"flipY": false,
+			"assetPath": "characters/jery_nervous",
+			"frameRate": 24,
+			"prefix": "Jery Nervous0",
+			"name": "nervous-loop",
+			"looped": true,
+			"flipX": false
 		}
 	]
 }

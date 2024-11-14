@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jery_nervous.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jery Nervous0000" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0001" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0002" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0003" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0004" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0005" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0006" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0007" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0008" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0009" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0010" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0011" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0012" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0013" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0014" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous0015" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0000" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0001" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0002" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0003" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0004" x="4" y="4" width="185" height="419" frameX="0" frameY="0" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0005" x="197" y="4" width="185" height="416" frameX="-5" frameY="-3" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0006" x="390" y="4" width="189" height="414" frameX="-6" frameY="-5" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0007" x="587" y="4" width="195" height="412" frameX="-5" frameY="-7" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0008" x="790" y="4" width="197" height="410" frameX="-5" frameY="-9" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0009" x="790" y="4" width="197" height="410" frameX="-5" frameY="-9" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0010" x="790" y="4" width="197" height="410" frameX="-5" frameY="-9" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0011" x="790" y="4" width="197" height="410" frameX="-5" frameY="-9" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0012" x="790" y="4" width="197" height="410" frameX="-5" frameY="-9" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0013" x="790" y="4" width="197" height="410" frameX="-5" frameY="-9" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous End0014" x="790" y="4" width="197" height="410" frameX="-5" frameY="-9" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0000" x="4" y="431" width="186" height="421" frameX="-6" frameY="0" frameWidth="202" frameHeight="421"/>
+	<SubTexture name="Jery Nervous Full0001" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0002" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0003" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0004" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0005" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0006" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0007" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0008" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0009" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0010" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0011" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0012" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0013" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0014" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0015" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0016" x="197" y="4" width="185" height="416" frameX="-5" frameY="-5" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0017" x="390" y="4" width="189" height="414" frameX="-6" frameY="-7" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0018" x="198" y="431" width="195" height="412" frameX="-5" frameY="-9" frameWidth="202" frameHeight="421"/>
+	<SubTexture name="Jery Nervous Full0019" x="790" y="4" width="197" height="410" frameX="-5" frameY="-11" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0020" x="790" y="4" width="197" height="410" frameX="-5" frameY="-11" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0021" x="790" y="4" width="197" height="410" frameX="-5" frameY="-11" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0022" x="790" y="4" width="197" height="410" frameX="-5" frameY="-11" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0023" x="790" y="4" width="197" height="410" frameX="-5" frameY="-11" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0024" x="790" y="4" width="197" height="410" frameX="-5" frameY="-11" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Full0025" x="790" y="4" width="197" height="410" frameX="-5" frameY="-11" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0000" x="4" y="431" width="186" height="421" frameX="-6" frameY="0" frameWidth="202" frameHeight="421"/>
+	<SubTexture name="Jery Nervous Intro0001" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0002" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0003" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0004" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0005" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0006" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0007" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0008" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0009" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0010" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0011" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0012" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0013" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0014" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+	<SubTexture name="Jery Nervous Intro0015" x="4" y="4" width="185" height="419" frameX="0" frameY="-2" frameWidth="202" frameHeight="419"/>
+</TextureAtlas>
