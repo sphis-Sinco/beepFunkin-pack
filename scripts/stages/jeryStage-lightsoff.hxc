@@ -27,7 +27,7 @@ class JerysStage extends Stage
 {
 	function new()
 	{
-		super('jeryStage');
+		super('jeryStage-lightsoff');
 	}
 
 	var colorShader:AdjustColorShader;
