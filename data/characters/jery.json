@@ -11,7 +11,7 @@
 	"name": "Jery",
 	"cameraOffsets": [
 		0,
-		0
+		-150
 	],
 	"startingAnimation": "idle",
 	"isPixel": false,
