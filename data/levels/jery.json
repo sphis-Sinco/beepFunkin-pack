@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
   "name": "JERY JEST",
-  "titleAsset": "storymenu/titles/week1",
+  "titleAsset": "storymenu/titles/jery",
   "props": [
     {
-      "assetPath": "storymenu/props/dad",
-      "scale": 1.0,
-      "offsets": [100, 60],
+      "assetPath": "storymenu/props/story_jery",
+      "scale": 0.8,
+      "offsets": [150, 35],
       "animations": [
         {
           "name": "idle",
-          "prefix": "idle0",
+          "prefix": "Jery Story Idle",
           "frameRate": 24
         }
       ]
@@ -54,5 +54,5 @@
   ],
   "background": "#F9CF51",
   "songs": ["jery"],
-  "visible": false
+  "visible": true
 }
