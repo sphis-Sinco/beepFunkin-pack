@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jerypack1-text.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="album-jerypack10000" x="4" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10001" x="4" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10002" x="4" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10003" x="234" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10004" x="234" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10005" x="234" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10006" x="234" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10007" x="234" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10008" x="234" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10009" x="234" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10010" x="234" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10011" x="234" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10012" x="234" y="4" width="222" height="192"/>
+	<SubTexture name="album-jerypack10013" x="234" y="4" width="222" height="192"/>
+</TextureAtlas>

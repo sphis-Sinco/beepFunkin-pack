@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jerypack1-spritesheet.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="albumCover0000" x="4" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0001" x="329" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0002" x="654" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0003" x="979" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0004" x="4" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0005" x="329" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0006" x="654" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0007" x="979" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0008" x="4" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0009" x="329" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0010" x="654" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0011" x="979" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0012" x="4" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0013" x="329" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0014" x="654" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0015" x="979" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0016" x="4" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0017" x="329" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0018" x="654" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0019" x="979" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0020" x="4" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0021" x="329" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0022" x="654" y="4" width="317" height="277"/>
+	<SubTexture name="albumCover0023" x="979" y="4" width="317" height="277"/>
+</TextureAtlas>
