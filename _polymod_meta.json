@@ -1,13 +1,13 @@
 {
     "title": "BeepFunkin",
-    "description": "rap against retied musician Jery,\nyou must bring his musical talent back!",
+    "description": "Rap against retired Rapper Jery!\nYou must bring his Rapper Talent back ",
     "contributors": [
         {
             "name": "IdealistCat / Sinco",
-            "role": "Director, Art, Animation, Composition, Programming"
+            "role": "Art, Animation, Charting, Composition, Programming"
         }
     ],
     "api_version": "0.5.3",
-    "mod_version": "0.1.0",
+    "mod_version": "0.1.1",
     "license": "MIT"
 }
