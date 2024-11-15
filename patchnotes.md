@@ -1,4 +1,6 @@
 # v0.1.1 (11/??/2024)
+## Added
+- New Song: Confidence
 ## Fixed
 - Jerypack 1 Animation
 
