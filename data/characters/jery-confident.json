@@ -1,0 +1,92 @@
+{
+	"version": "1.0.0",
+	"renderType": "multisparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"flipX": false,
+	"name": "Jery (Confident)",
+	"cameraOffsets": [
+		0,
+		-150
+	],
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"singTime": 8,
+	"assetPath": "characters/jery_confident",
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"id": "jery",
+		"flipX": false
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Confident Jery Idle",
+			"name": "idle",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				100,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Confident Jery NOTE right",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				50,
+				-45
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Confident Jery NOTE down",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				90,
+				20
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Confident Jery NOTE up",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				30,
+				-10
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Confident Jery NOTE left",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false
+		}
+	]
+}
