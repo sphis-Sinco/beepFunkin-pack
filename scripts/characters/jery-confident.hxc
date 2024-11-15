@@ -1,0 +1,32 @@
+import funkin.play.character.MultiSparrowCharacter;
+import funkin.play.character.CharacterType;
+import funkin.play.PlayState;
+import funkin.play.GameOverSubState;
+import funkin.graphics.adobeanimate.FlxAtlasSprite;
+import flixel.util.FlxTimer;
+import funkin.graphics.FunkinSprite;
+import funkin.audio.FunkinSound;
+import flixel.FlxSprite;
+import flixel.FlxG;
+import funkin.modding.base.ScriptedFunkinSprite;
+import flixel.group.FlxTypedSpriteGroup;
+import flixel.effects.FlxFlicker;
+import funkin.play.PauseSubState;
+import funkin.modding.module.ModuleHandler;
+import flixel.tweens.FlxTween;
+
+
+class JeryConfidentCharacter extends MultiSparrowCharacter {
+	function new() {
+		super('jery-confident');
+	}
+
+	function onCreate(event:ScriptEvent) {
+		super.onCreate(event);
+	}
+
+	function onNoteMiss(event:NoteScriptEvent)
+	{
+		super.onNoteMiss(event);
+	}
+}
