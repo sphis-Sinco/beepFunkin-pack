@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jerypack2-text.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="4" y="4" width="242" height="192"/>
+	<SubTexture name="idle0001" x="4" y="4" width="242" height="192"/>
+	<SubTexture name="idle0002" x="4" y="4" width="242" height="192"/>
+	<SubTexture name="idle0003" x="4" y="4" width="242" height="192"/>
+	<SubTexture name="idle0004" x="4" y="4" width="242" height="192"/>
+	<SubTexture name="idle0005" x="4" y="4" width="242" height="192"/>
+	<SubTexture name="idle0006" x="4" y="4" width="242" height="192"/>
+	<SubTexture name="idle0007" x="4" y="4" width="242" height="192"/>
+	<SubTexture name="idle0008" x="4" y="4" width="242" height="192"/>
+	<SubTexture name="idle0009" x="4" y="4" width="242" height="192"/>
+	<SubTexture name="idle0010" x="4" y="4" width="242" height="192"/>
+	<SubTexture name="switch0000" x="254" y="4" width="242" height="192"/>
+	<SubTexture name="switch0001" x="254" y="4" width="242" height="192"/>
+	<SubTexture name="switch0002" x="254" y="4" width="242" height="192"/>
+	<SubTexture name="switch0003" x="4" y="4" width="242" height="192"/>
+</TextureAtlas>
