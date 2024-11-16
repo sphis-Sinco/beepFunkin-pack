@@ -28,17 +28,14 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 	function onNoteMiss(event:NoteScriptEvent)
 	{
 		trace('JERY CONFIDENT IS ABOU TO LAH');
-		currentStage.getDad().playAnimation('laugh', true, true);
+		// currentStage.getDad().playAnimation('laugh', true, true);
 
-		/**
 		var currentStage = PlayState.instance.currentStage;
 		var ogX = PlayState.instance.cameraFollowPoint.x;
 		var ogY = PlayState.instance.cameraFollowPoint.y;
-		var ogZoom = PlayState.instance.currentCameraZoom;
-		trace(ogZoom);
 		
 		if (PlayState.instance.isMinimalMode || currentStage.getDad().getCurrentAnimation() == 'laugh') {
-			currentStage.getDad().playAnimation('laugh', true, true);
+			currentStage.getDad().playAnimation('laugh');
 			
 			new FlxTimer().start(2.1, function(tmr){
 				PlayState.instance.resetCamera(false, false, false);
@@ -61,7 +58,7 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 			PlayState.instance.cancelCameraFollowTween();
 			PlayState.instance.cameraFollowPoint.setPosition(targetX, targetY);
 			
-			currentStage.getDad().playAnimation('laugh', true, true);
+			currentStage.getDad().playAnimation('laugh');
 			
 			new FlxTimer().start(2.1, function(tmr){
 				PlayState.instance.resetCamera(false, false, false);
@@ -69,7 +66,6 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 				PlayState.instance.cameraFollowPoint.setPosition(ogX, ogY);
 			});
 		}
-		**/
 
 		super.onNoteMiss(event);
 	}
