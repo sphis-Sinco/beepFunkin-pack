@@ -87,6 +87,19 @@
 			"name": "singLEFT",
 			"looped": false,
 			"flipX": false
+		},
+		{
+			"offsets": [
+				45,
+				-10
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Confident Jery Giggle",
+			"name": "laugh",
+			"looped": false,
+			"flipX": false,
+			"assetPath": "characters/jery_laugh"
 		}
 	]
 }
