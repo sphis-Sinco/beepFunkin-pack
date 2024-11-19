@@ -80,7 +80,7 @@
       "frameRate": 24,
       "assetPath": "characters/jery_missing",
       "prefix": "Jery NOTEMISS right",
-      "name": "singRIGHTmiss",
+      "name": "singRIGHT-miss",
       "looped": false,
       "flipX": false
     },
@@ -90,7 +90,7 @@
       "frameRate": 24,
       "assetPath": "characters/jery_missing",
       "prefix": "Jery NOTEMISS down",
-      "name": "singDOWNmiss",
+      "name": "singDOWN-miss",
       "looped": false,
       "flipX": false
     },
@@ -100,7 +100,7 @@
       "frameRate": 24,
       "assetPath": "characters/jery_missing",
       "prefix": "Jery NOTEMISS up",
-      "name": "singUPmiss",
+      "name": "singUP-miss",
       "looped": false,
       "flipX": false
     },
@@ -110,7 +110,7 @@
       "frameRate": 24,
       "assetPath": "characters/jery_missing",
       "prefix": "Jery NOTEMISS left",
-      "name": "singLEFTmiss",
+      "name": "singLEFT-miss",
       "looped": false,
       "flipX": false
     }

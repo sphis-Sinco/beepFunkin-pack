@@ -36,10 +36,6 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 
 			
 			switch(event.note.kind) {
-				case "nervous":
-					// TODO: add nervous
-					// holdTimer = 0;
-					// this.playSingAnimation(event.note.noteData.getDirection(), false, 'nervous');
 				case "miss":
 					this.playSingAnimation(event.note.noteData.getDirection(), false, 'miss');
 				default:
@@ -64,7 +60,7 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 
 	function onNoteMiss(event:NoteScriptEvent)
 	{
-		if (event.note.kind == 'nervous') return;
+		if (event.note.kind == 'nervous' || event.note.kind == 'miss') return;
 
 		trace('JERY CONFIDENT IS ABOU TO LAH');
 		// currentStage.getDad().playAnimation('laugh', true, true);
