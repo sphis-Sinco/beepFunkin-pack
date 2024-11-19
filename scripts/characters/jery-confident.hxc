@@ -34,15 +34,14 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 				return;
 			}
 			
+			canlaugh = false;
 			switch(event.note.kind) {
 				case "nervous":
 					canlaugh = true;
-					this.playSingAnimation(event.note.noteData.getDirection(), false, 'miss');
 				case "miss":
 					canlaugh = true;
 					this.playSingAnimation(event.note.noteData.getDirection(), false, 'miss');
 				default:
-					canlaugh = false;
 					super.onNoteHit(event);
 			}
 		}
