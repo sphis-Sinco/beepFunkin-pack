@@ -5,6 +5,10 @@
         {
             "name": "IdealistCat / Sinco",
             "role": "Art, Animation, Charting, Composition, Programming"
+        },
+        {
+            "name": "Djotta Flow",
+            "role": "Art, Animation"
         }
     ],
     "api_version": "0.5.3",
