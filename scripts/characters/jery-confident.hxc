@@ -25,8 +25,47 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 		super.onUpdate(event);
 	}
 
+	
+
+	function onNoteHit(event:HitNoteScriptEvent)
+		{
+			if (event.eventCanceled) {
+				// onNoteHit event was cancelled by the gameplay module.
+				return;
+			}
+
+			
+			switch(event.note.kind) {
+				case "nervous":
+					// TODO: add nervous
+					// holdTimer = 0;
+					// this.playSingAnimation(event.note.noteData.getDirection(), false, 'nervous');
+				case "miss":
+					this.playSingAnimation(event.note.noteData.getDirection(), false, 'miss');
+				default:
+					super.onNoteHit(event);
+			}
+		}
+	
+	/*
+		function onNoteMiss(event:NoteScriptEvent)
+		{
+			// Override the miss note animation.
+			switch(event.note.kind) {
+				case "weekend-1-cockgun":
+					//playCockMissAnim();
+				case "weekend-1-firegun":
+					playCanExplodeAnim();
+				default:
+					super.onNoteMiss(event);
+			}
+		}
+	*/
+
 	function onNoteMiss(event:NoteScriptEvent)
 	{
+		if (event.note.kind == 'nervous') return;
+
 		trace('JERY CONFIDENT IS ABOU TO LAH');
 		// currentStage.getDad().playAnimation('laugh', true, true);
 
