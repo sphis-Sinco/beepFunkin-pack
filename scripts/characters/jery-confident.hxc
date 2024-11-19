@@ -38,6 +38,7 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 			switch(event.note.kind) {
 				case "nervous":
 					canlaugh = true;
+					super.onNoteHit(event);
 				case "miss":
 					canlaugh = true;
 					this.playSingAnimation(event.note.noteData.getDirection(), false, 'miss');
