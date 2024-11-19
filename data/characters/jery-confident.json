@@ -18,141 +18,140 @@
 	"singTime": 8,
 	"assetPath": "characters/jery_confident",
 	"healthIcon": {
-		"isPixel": false,
 		"offsets": [
 			0,
 			0
 		],
+		"isPixel": false,
 		"scale": 1,
-		"id": "jery",
-		"flipX": false
+		"flipX": false,
+		"id": "jery"
 	},
 	"animations": [
 		{
+			"flipY": false,
 			"offsets": [
 				0,
 				0
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "Confident Jery Idle",
-			"name": "idle",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "idle"
 		},
 		{
+			"flipY": false,
 			"offsets": [
 				100,
 				0
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "Confident Jery NOTE right",
-			"name": "singRIGHT",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singRIGHT"
 		},
 		{
+			"flipY": false,
 			"offsets": [
 				50,
 				-45
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "Confident Jery NOTE down",
-			"name": "singDOWN",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singDOWN"
 		},
 		{
+			"flipY": false,
 			"offsets": [
 				90,
 				20
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "Confident Jery NOTE up",
-			"name": "singUP",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singUP"
 		},
 		{
+			"flipY": false,
 			"offsets": [
 				30,
 				-10
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "Confident Jery NOTE left",
-			"name": "singLEFT",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singLEFT"
 		},
 		{
+			"flipY": false,
 			"offsets": [
 				45,
 				-10
 			],
-			"flipY": false,
+			"assetPath": "characters/jery_laugh",
 			"frameRate": 24,
 			"prefix": "Confident Jery Giggle",
-			"name": "laugh",
-			"looped": false,
 			"flipX": false,
-			"assetPath": "characters/jery_laugh"
+			"looped": false,
+			"name": "laugh"
 		},
-		
 		{
+			"flipY": false,
 			"offsets": [
 				100,
 				0
 			],
-			"flipY": false,
+			"assetPath": "characters/jery_missing",
 			"frameRate": 24,
 			"prefix": "Jery NOTEMISS right",
-			"name": "singRIGHTmiss",
-			"looped": false,
 			"flipX": false,
-			"assetPath": "characters/jery_missing"
+			"looped": false,
+			"name": "singRIGHTmiss"
 		},
 		{
+			"flipY": false,
 			"offsets": [
 				50,
 				-45
 			],
-			"flipY": false,
+			"assetPath": "characters/jery_missing",
 			"frameRate": 24,
 			"prefix": "Jery NOTEMISS down",
-			"name": "singDOWNmiss",
-			"looped": false,
 			"flipX": false,
-			"assetPath": "characters/jery_missing"
+			"looped": false,
+			"name": "singDOWNmiss"
 		},
 		{
+			"flipY": false,
 			"offsets": [
 				90,
 				20
 			],
-			"flipY": false,
+			"assetPath": "characters/jery_missing",
 			"frameRate": 24,
 			"prefix": "Jery NOTEMISS up",
-			"name": "singUPmiss",
-			"looped": false,
 			"flipX": false,
-			"assetPath": "characters/jery_missing"
+			"looped": false,
+			"name": "singUPmiss"
 		},
 		{
+			"flipY": false,
 			"offsets": [
 				30,
-				-10
+				-25
 			],
-			"flipY": false,
+			"assetPath": "characters/jery_missing",
 			"frameRate": 24,
 			"prefix": "Jery NOTEMISS left",
-			"name": "singLEFTmiss",
-			"looped": false,
 			"flipX": false,
-			"assetPath": "characters/jery_missing"
+			"looped": false,
+			"name": "singLEFTmiss"
 		}
 	]
 }
