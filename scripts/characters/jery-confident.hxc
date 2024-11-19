@@ -25,7 +25,7 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 		super.onUpdate(event);
 	}
 
-	public var canlaugh:Bool = false;
+	var canlaugh:Bool = false;
 
 	function onNoteHit(event:HitNoteScriptEvent)
 		{
@@ -46,63 +46,49 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 					super.onNoteHit(event);
 			}
 		}
-	
-	/*
-		function onNoteMiss(event:NoteScriptEvent)
-		{
-			// Override the miss note animation.
-			switch(event.note.kind) {
-				case "weekend-1-cockgun":
-					//playCockMissAnim();
-				case "weekend-1-firegun":
-					playCanExplodeAnim();
-				default:
-					super.onNoteMiss(event);
-			}
-		}
-	*/
-
 	function onNoteMiss(event:NoteScriptEvent)
 	{
-		if (canlaugh) {
+		if (canlaugh == true) {
 
-		trace('JERY CONFIDENT IS ABOU TO LAH');
-		// currentStage.getDad().playAnimation('laugh', true, true);
+			trace('JERY CONFIDENT IS ABOU TO LAH');
+			// currentStage.getDad().playAnimation('laugh', true, true);
 
-		var currentStage = PlayState.instance.currentStage;
-		var ogX = PlayState.instance.cameraFollowPoint.x;
-		var ogY = PlayState.instance.cameraFollowPoint.y;
-		
-		if (PlayState.instance.isMinimalMode || currentStage.getDad().getCurrentAnimation() == 'laugh') {
-			currentStage.getDad().playAnimation('laugh', true);
+			var currentStage = PlayState.instance.currentStage;
+			var ogX = PlayState.instance.cameraFollowPoint.x;
+			var ogY = PlayState.instance.cameraFollowPoint.y;
 			
-			new FlxTimer().start(2.1, function(tmr){
+			if (PlayState.instance.isMinimalMode || currentStage.getDad().getCurrentAnimation() == 'laugh') {
+				currentStage.getDad().playAnimation('laugh', true);
+				
+				new FlxTimer().start(2.1, function(tmr){
+					PlayState.instance.cancelCameraFollowTween();
+					PlayState.instance.cameraFollowPoint.setPosition(ogX, ogY);
+				});
+
+				return;
+			}
+			
+			if(currentStage.getDad().characterId == 'jery-confident'){
+				var targetX = 0;
+				var targetY = 0;
+				
+				var dadPoint = currentStage.getDad().cameraFocusPoint;
+				targetX += dadPoint.x;
+				targetY += dadPoint.y;
+
 				PlayState.instance.cancelCameraFollowTween();
-				PlayState.instance.cameraFollowPoint.setPosition(ogX, ogY);
-			});
-
-			return;
+				PlayState.instance.cameraFollowPoint.setPosition(targetX, targetY);
+				
+				currentStage.getDad().playAnimation('laugh', true);
+				
+				new FlxTimer().start(2.1, function(tmr){
+					PlayState.instance.cancelCameraFollowTween();
+					PlayState.instance.cameraFollowPoint.setPosition(ogX, ogY);
+				});
+			}
+		} else {
+			trace('NO LAUGH');
 		}
-		
-		if(currentStage.getDad().characterId == 'jery-confident'){
-			var targetX = 0;
-			var targetY = 0;
-			
-			var dadPoint = currentStage.getDad().cameraFocusPoint;
-			targetX += dadPoint.x;
-			targetY += dadPoint.y;
-
-			PlayState.instance.cancelCameraFollowTween();
-			PlayState.instance.cameraFollowPoint.setPosition(targetX, targetY);
-			
-			currentStage.getDad().playAnimation('laugh', true);
-			
-			new FlxTimer().start(2.1, function(tmr){
-				PlayState.instance.cancelCameraFollowTween();
-				PlayState.instance.cameraFollowPoint.setPosition(ogX, ogY);
-			});
-		}
-	}
 
 		super.onNoteMiss(event);
 	}
