@@ -33,13 +33,16 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 				// onNoteHit event was cancelled by the gameplay module.
 				return;
 			}
-
-			canlaugh = event.note.kind == 'nervous' || event.note.kind == 'miss';
 			
 			switch(event.note.kind) {
+				case "nervous":
+					canlaugh = true;
+					this.playSingAnimation(event.note.noteData.getDirection(), false, 'miss');
 				case "miss":
+					canlaugh = true;
 					this.playSingAnimation(event.note.noteData.getDirection(), false, 'miss');
 				default:
+					canlaugh = false;
 					super.onNoteHit(event);
 			}
 		}
@@ -74,7 +77,6 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 			currentStage.getDad().playAnimation('laugh', true);
 			
 			new FlxTimer().start(2.1, function(tmr){
-				PlayState.instance.resetCamera(false, false, false);
 				PlayState.instance.cancelCameraFollowTween();
 				PlayState.instance.cameraFollowPoint.setPosition(ogX, ogY);
 			});
@@ -90,14 +92,12 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 			targetX += dadPoint.x;
 			targetY += dadPoint.y;
 
-			PlayState.instance.resetCamera(false, false, false);
 			PlayState.instance.cancelCameraFollowTween();
 			PlayState.instance.cameraFollowPoint.setPosition(targetX, targetY);
 			
 			currentStage.getDad().playAnimation('laugh', true);
 			
 			new FlxTimer().start(2.1, function(tmr){
-				PlayState.instance.resetCamera(false, false, false);
 				PlayState.instance.cancelCameraFollowTween();
 				PlayState.instance.cameraFollowPoint.setPosition(ogX, ogY);
 			});
