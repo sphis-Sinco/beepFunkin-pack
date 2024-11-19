@@ -25,7 +25,7 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 		super.onUpdate(event);
 	}
 
-	
+	public var canlaugh:Bool = false;
 
 	function onNoteHit(event:HitNoteScriptEvent)
 		{
@@ -34,6 +34,7 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 				return;
 			}
 
+			canlaugh = event.note.kind == 'nervous' || event.note.kind == 'miss';
 			
 			switch(event.note.kind) {
 				case "miss":
@@ -60,7 +61,7 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 
 	function onNoteMiss(event:NoteScriptEvent)
 	{
-		if (event.note.kind == 'nervous' || event.note.kind == 'miss') return;
+		if (!canlaugh) return;
 
 		trace('JERY CONFIDENT IS ABOU TO LAH');
 		// currentStage.getDad().playAnimation('laugh', true, true);
