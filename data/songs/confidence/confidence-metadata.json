@@ -34,9 +34,9 @@
     "stage": "jeryStage-lightsoff",
     "noteStyle": "funkin",
     "ratings": {
-      "normal": 10,
-      "easy": 0,
-      "hard": 0
+      "easy": 9,
+      "hard": 11,
+      "normal": 10
     },
     "previewStart": 0,
     "previewEnd": 0
