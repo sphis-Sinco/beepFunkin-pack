@@ -100,6 +100,55 @@
 			"looped": false,
 			"flipX": false,
 			"assetPath": "characters/jery_laugh"
+		},
+		
+		{
+			"offsets": [
+				100,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Jery NOTEMISS right",
+			"name": "singRIGHTmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				50,
+				-45
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Jery NOTEMISS down",
+			"name": "singDOWNmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				90,
+				20
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Jery NOTEMISS up",
+			"name": "singUPmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				30,
+				-10
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "Jery NOTEMISS left",
+			"name": "singLEFTmiss",
+			"looped": false,
+			"flipX": false
 		}
 	]
 }
