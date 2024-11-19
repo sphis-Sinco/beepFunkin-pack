@@ -112,7 +112,8 @@
 			"prefix": "Jery NOTEMISS right",
 			"name": "singRIGHTmiss",
 			"looped": false,
-			"flipX": false
+			"flipX": false,
+			"assetPath": "characters/jery_missing"
 		},
 		{
 			"offsets": [
@@ -124,7 +125,8 @@
 			"prefix": "Jery NOTEMISS down",
 			"name": "singDOWNmiss",
 			"looped": false,
-			"flipX": false
+			"flipX": false,
+			"assetPath": "characters/jery_missing"
 		},
 		{
 			"offsets": [
@@ -136,7 +138,8 @@
 			"prefix": "Jery NOTEMISS up",
 			"name": "singUPmiss",
 			"looped": false,
-			"flipX": false
+			"flipX": false,
+			"assetPath": "characters/jery_missing"
 		},
 		{
 			"offsets": [
@@ -148,7 +151,8 @@
 			"prefix": "Jery NOTEMISS left",
 			"name": "singLEFTmiss",
 			"looped": false,
-			"flipX": false
+			"flipX": false,
+			"assetPath": "characters/jery_missing"
 		}
 	]
 }
