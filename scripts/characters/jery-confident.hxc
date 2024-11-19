@@ -61,7 +61,7 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 
 	function onNoteMiss(event:NoteScriptEvent)
 	{
-		if (!canlaugh) return;
+		if (canlaugh) continue;
 
 		trace('JERY CONFIDENT IS ABOU TO LAH');
 		// currentStage.getDad().playAnimation('laugh', true, true);
