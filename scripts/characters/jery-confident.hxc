@@ -70,7 +70,7 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 		var ogY = PlayState.instance.cameraFollowPoint.y;
 		
 		if (PlayState.instance.isMinimalMode || currentStage.getDad().getCurrentAnimation() == 'laugh') {
-			currentStage.getDad().playAnimation('laugh');
+			currentStage.getDad().playAnimation('laugh', true);
 			
 			new FlxTimer().start(2.1, function(tmr){
 				PlayState.instance.resetCamera(false, false, false);
@@ -93,7 +93,7 @@ class JeryConfidentCharacter extends MultiSparrowCharacter {
 			PlayState.instance.cancelCameraFollowTween();
 			PlayState.instance.cameraFollowPoint.setPosition(targetX, targetY);
 			
-			currentStage.getDad().playAnimation('laugh');
+			currentStage.getDad().playAnimation('laugh', true);
 			
 			new FlxTimer().start(2.1, function(tmr){
 				PlayState.instance.resetCamera(false, false, false);
